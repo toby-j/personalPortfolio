@@ -583,7 +583,7 @@ a:active {
     }
 }
 
-@media (max-width:700px) {
+@media (max-width:500px) {
    .home-social-list {
       top: 75%;
    }
