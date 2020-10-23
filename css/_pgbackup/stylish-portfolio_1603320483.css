@@ -55,9 +55,8 @@ h6 {
     .map {
         height: 75%;
     }
-
     #aboutMe {
-        min-height: 1250px !important;
+      min-height: 1250px !important;
     }
 }
 
@@ -123,7 +122,6 @@ h6 {
     .masthead {
         height: 100vh;
     }
-
     .masthead h1 {
         font-size: 4.5rem;
     }
@@ -457,8 +455,7 @@ a:active {
 }
 
 .beautylogo {
-    /*max-width: 500px
- */
+    max-width: 500px;
     margin: auto;
 }
 
@@ -544,57 +541,14 @@ a:active {
     background-color: #0a192f !important;
 }
 
+
+
 .btButton {
-    margin-top: 50px;
+    float: none;
 }
 
 .beautytruthCon {
     max-width: 2000px !important;
-}
-
-@media (max-width: 570px) {
-    .masthead h1 {
-        font-size: 3rem;
-    }
-
-    .masthead h3 {
-        font-size: 2rem;
-    }
-}
-
-@media (max-width: 999px) {
-    .beautylogo {
-      padding-bottom: 50px;
-      margin-top: -49px;
-    }
-}
-
-@media (max-width: 425px) {
-    .masthead h1 {
-        font-size: 2.5rem;
-    }
-
-    .masthead h3 {
-        font-size: 1.5rem;
-    }
-
-    .btCol h3 {
-      font-size: 1.5rem;
-    }
-}
-
-@media (max-width: 350px) {
-    .masthead h1 {
-        font-size: 2rem;
-    }
-
-    .masthead h3 {
-        font-size: 1.2rem;
-    }
-
-    .content-section-heading h1 {
-        font-size: 2rem;
-    }
 }
 
 @keyframes animate {

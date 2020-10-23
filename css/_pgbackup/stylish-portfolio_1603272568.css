@@ -55,10 +55,6 @@ h6 {
     .map {
         height: 75%;
     }
-
-    #aboutMe {
-        min-height: 1250px !important;
-    }
 }
 
 .map iframe {
@@ -364,7 +360,8 @@ footer.footer .social-link:hover {
 }
 
 a {
-    color: #1D809F;
+    /*color: #1D809F
+ */
 }
 
 a:hover,
@@ -457,8 +454,7 @@ a:active {
 }
 
 .beautylogo {
-    /*max-width: 500px
- */
+    max-width: 500px;
     margin: auto;
 }
 
@@ -536,65 +532,20 @@ a:active {
 
 .slide_up a {
     animation: Slide_Up 1s ease;
-    float: left;
 }
 
 #aboutMe {
     padding-top: 20px;
     background-color: #0a192f !important;
+    height: 1000px;
 }
 
 .btButton {
-    margin-top: 50px;
+    float: none;
 }
 
 .beautytruthCon {
     max-width: 2000px !important;
-}
-
-@media (max-width: 570px) {
-    .masthead h1 {
-        font-size: 3rem;
-    }
-
-    .masthead h3 {
-        font-size: 2rem;
-    }
-}
-
-@media (max-width: 999px) {
-    .beautylogo {
-      padding-bottom: 50px;
-      margin-top: -49px;
-    }
-}
-
-@media (max-width: 425px) {
-    .masthead h1 {
-        font-size: 2.5rem;
-    }
-
-    .masthead h3 {
-        font-size: 1.5rem;
-    }
-
-    .btCol h3 {
-      font-size: 1.5rem;
-    }
-}
-
-@media (max-width: 350px) {
-    .masthead h1 {
-        font-size: 2rem;
-    }
-
-    .masthead h3 {
-        font-size: 1.2rem;
-    }
-
-    .content-section-heading h1 {
-        font-size: 2rem;
-    }
 }
 
 @keyframes animate {
