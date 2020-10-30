@@ -131,7 +131,7 @@ h6 {
 
 @media (min-width: 1600px) {
     .beautylogo {
-        max-width: 600px !important;
+      max-width: 600px !important;
     }
 }
 
@@ -546,7 +546,6 @@ a:active {
 
 .btButton {
     margin-top: 50px;
-    margin-left: 20px;
 }
 
 .beautytruthCon {
@@ -565,8 +564,8 @@ a:active {
 
 @media (max-width: 999px) {
     .beautylogo {
-        padding-bottom: 50px;
-        margin-top: -49px;
+      padding-bottom: 50px;
+      margin-top: -49px;
     }
 }
 
@@ -580,14 +579,14 @@ a:active {
     }
 
     .btCol h3 {
-        font-size: 1.5rem;
+      font-size: 1.5rem;
     }
 }
 
 @media (max-width:500px) {
-    .home-social-list {
-        top: 75%;
-    }
+   .home-social-list {
+      top: 75%;
+   }
 }
 
 @media (max-width: 350px) {
