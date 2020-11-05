@@ -414,7 +414,11 @@ a:active {
 }
 
 .bg-primary {
-    background-color: #007EA7 !important;
+    background-color: #00a8e2 !important;
+}
+
+.totalSolar {
+  background-color: #00a8e2 !important;
 }
 
 .text-primary {
@@ -443,10 +447,6 @@ a:active {
 
 .bg-beautytruthGreen {
     background-color: #64a19d;
-}
-
-.bg-totalSolarBlue {
-  background-color: #00a8e2 !important;
 }
 
 .dev-icons {
