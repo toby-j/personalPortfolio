@@ -112,9 +112,6 @@
                                 <i class="fab fa-github"></i>
                             </li>
                             <li class="list-inline-item">
-                                <i class="fab fa-googlefirebase"></i>
-                            </li>
-                            <li class="list-inline-item">
                                 <i class="fab fa-android"></i>
                             </li>
                             <li class="list-inline-item">
@@ -137,43 +134,16 @@
         <section class="content-section bg-beautytruthGreen" id="beautytruth">
             <div class="container text-center beautytruthCon" style="margin-top: 20px;">
                 <div class="row">
-                    <div class="mx-auto my-auto col-md-9 col-sm-10 col-lg-5">
-                        <div class="row">
-                            <div class="mx-auto my-auto col-lg-1 col-sm-1 col-2 col-md-2">
-                                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                            </div>
-                            <div class="mx-auto col-7 col-xl-7">
-                                <!-- Slideshow container -->
-                                <div class="slideshow-container">
-                                    <!-- Full-width images with number and caption text -->
-                                    <div class="mySlides fade">
-                                        <img src="img/ScannerView.png" style="width:100%">
-                                    </div>
-                                    <div class="mySlides fade">
-                                        <img src="img/ingredientsOpen.png" style="width:100%">
-                                    </div>
-                                    <div class="mySlides fade">
-                                        <img src="img/ingredientsClosed.png" style="width:100%">
-                                    </div>
-                                    <!-- Next and previous buttons -->
-                                </div>
-                                <br>
-                                <!-- The dots/circles -->
-                            </div>
-                            <div class="mx-auto my-auto col-lg-1 col-sm-1 col-2 col-md-2">
-                                <a class="next" onclick="plusSlides(1)">&#10095;</a>
-                            </div>
-                        </div>
-                        <!-- Next and previous buttons -->
+                    <div class="mx-auto my-auto col-lg-5 col-md-9 col-sm-10">
+                        <img class="img-fluid d-block mb-2 mx-auto beautylogo" src="img\beautytruth.png" style="margin-bottom: 0;">
                     </div>
-                    <div class="mx-auto my-auto btCol col-md-9 col-sm-10 col-lg-5">
-                        <img class="img-fluid d-block mx-auto beautylogo mr-auto ml-auto " src="img\beautytruth.png" style="margin-bottom: 0;">
+                    <div class="mx-auto col-lg-6 btCol col-md-9 col-sm-10">
                         <h3 class="light" style="margin-bottom: 50px; text-align: left;">Quickly know if a product is vegan, cruelty- free or sustainable. All from your smartphone.</h3>
                         <p class="light" style="text-align: left;">Since July 2020, I've been developing BeautyTruth natively for IOS and Android with an aim to let consumers know quickly which vegan and cruelty-free societies have certified a scanned product. </p>
                         <p class="light" style="text-align: left;">I've designed an intricate system using AWS, Azure and external APIs to connect my app to over 34 million products. This system will correctly deal with new and phased out products while increasing the speed of frequent product scans over time.</p>
                         <p class="light" style="text-align: left;">I've partnered with PETA to have exclusive use of their API. I'm also in discussion with other societies to negotiate access to their certified products and brands to help streamline development.</p>
                         <a class="btn btn-light btn-xl js-scroll-trigger btButton" href="https://www.beautytruth.uk">Visit website</a>
-                        <a class="btn btn-light btn-xl js-scroll-trigger btButton" href="https://am3pap001files.storage.live.com/y4mUMefa7cQbyKyVGZFERfGfbZDZL5zf0HVmoQfaiNnhT6ZCvkBswXfgi6Jkf4x5fPTuOlgJGGQkPqLFf1DkcC8DgLAGhMD0Dxhm4qNYk9VxrJfvE7iKYUvAxG2rLS0whw7CXrgHePFWgUeJ-JIUF0eK3-7DCzgF7rDgzTEdL8UQPzwtLRuVU2gtsZx1i4tKaXq?width=1143&height=1642&cropmode=none">Cloud architecture</a>
+                        <a class="btn btn-light btn-xl js-scroll-trigger btButton" href="https://am3pap001files.storage.live.com/y4mUMefa7cQbyKyVGZFERfGfbZDZL5zf0HVmoQfaiNnhT6ZCvkBswXfgi6Jkf4x5fPTuOlgJGGQkPqLFf1DkcC8DgLAGhMD0Dxhm4qNYk9VxrJfvE7iKYUvAxG2rLS0whw7CXrgHePFWgUeJ-JIUF0eK3-7DCzgF7rDgzTEdL8UQPzwtLRuVU2gtsZx1i4tKaXq?width=1143&height=1642&cropmode=none">AWS architecture</a>
                         <a class="btn btn-light btn-xl js-scroll-trigger btButton" href="https://am3pap001files.storage.live.com/y4mGppCaPa4QgQ2mmvaiFH84g9WU39SaKHWpPWMpzOS7qn1hE-QrZwHoPXR61AOq3vgHYIr5VhnwNkrbYlGC3Nf9B37TPrkLIfawv4GZdqlhegZFq7m8r9T2jmpf8OVvCt5gbwcjpJLHnD_xNMacM-V9s_4f7ZkEtAdrwYREV4vGpzBL9dS3cxU3c-j3I6ty_-f?width=1502&height=2291&cropmode=none">Flow diagram</a>
                     </div>
                 </div>
@@ -244,33 +214,5 @@
         <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
         <!-- Custom scripts for this template -->
         <script src="js/stylish-portfolio.min.js"></script>
-        <script> var slideIndex = 1;
-showSlides(slideIndex);
-
-// Next/previous controls
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-// Thumbnail image controls
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
-}  </script>
     </body>
 </html>
