@@ -33,7 +33,7 @@
                     <a class="js-scroll-trigger" href="#bepanda">BePanda</a>
                 </li>
                 <li class="sidebar-nav-item">
-                    <a class="js-scroll-trigger" href="#contact">Contact</a>
+                    <a class="js-scroll-trigger" href="#totalSolar">TotalSolar</a>
                 </li>
             </ul>
         </nav>
@@ -68,16 +68,16 @@
                             <p>I'm Toby, a computer science undergraduate from Surrey University.</p>
                             <p>I have a passion for music and creating things that help solve the world's biggest issues: artificial intelligence and climate change.</p>
                             <p></p>
-                            <p>I've played guitar since I was 16 and founded a band at my first year of university. Recently, I've picked up DJing and am looking to start the first DJ society at my University.</p>
-                            <p>When I was 18, I founded my first business, BePanda. With sustainability at the forefront, I sourced and marketed recycleable, reuseable products on Amazon.co.uk and at a number of garden centres.</p>
+                            <p>I've played guitar since I was 16 and founded a band in my first year of university. Recently, I've picked up DJing and am looking to start the first DJ society at my University.</p>
+                            <p>When I was 18, I founded my first business, BePanda. With sustainability at the forefront, I sourced and marketed recyclable, reuseable products on Amazon.co.uk and at a number of garden centres.</p>
                             <p>My latest project, BeautyTruth, aims to accelerate the transition to sustainable and ethical products.</p>
                         </div>
                     </hp>
                     <img class="img-fluid img-profile mx-auto my-auto rounded-circle mx-auto" src="img/profile.png" alt="">
                 </div>
                 <h1 class="mb-5 light-gray" style="text-align: left;">Workflow and frameworks</h1>
-                <div style="margin-left: 20px;" class="col-11 col-lg-9 col-xl-7">
-                    <div class="row">
+                <div style="margin-left: 20px;" class="col-11 col-xl-7 col-lg-8">
+                    <div class="row text-left">
                         <h5 class="light-darkergray" style="float: left; margin-top: 10px;"><span class="fa-li"><i class="fas fa-check"></i></span>Swift with SwiftUI and Combine</h5>
                         <h5 class="light-darkergray" style="float: left; margin-top: 10px;"><span class="fa-li"><i class="fas fa-check"></i></span>Kotlin with Coroutines and Google's Jetpack</h5>
                         <h5 class="light-darkergray" style="float: left; margin-top: 10px;"><span class="fa-li"><i class="fas fa-check"></i></span>State machine implementation</h5>
@@ -89,12 +89,12 @@
             </div>
         </section>
         <section class="content-section bg-primary text-white text-center" id="services">
-            <div class="container">
+            <div class="container techstackCon">
                 <div class="content-section-heading">
                     <h1 class="mb-5">Technologies I'm using to make my projects happen</h1>
                 </div>
                 <div class="row">
-                    <div class="col-md-8 col-md-offset-2 col-sm-12 col-md-12 d-flex">
+                    <div class="col-md-offset-2 col-sm-12 d-flex col-md-12 col-xl-12">
                         <ul class="list-inline dev-icons mx-auto">
                             <li class="list-inline-item">
                                 <i class="fab fa-html5"></i>
@@ -103,16 +103,19 @@
                                 <i class="fab fa-css3-alt"></i>
                             </li>
                             <li class="list-inline-item">
+                                <i class="fab fa-bootstrap"></i>
+                            </li>
+                            <li class="list-inline-item">
                                 <i class="fab fa-js-square"></i>
                             </li>
                             <li class="list-inline-item">
                                 <i class="fab fa-node-js"></i>
                             </li>
                             <li class="list-inline-item">
-                                <i class="fab fa-npm"></i>
+                                <img class="stackLogo fab" src="img\ruby.png" style="margin-bottom: 15px;">
                             </li>
                             <li class="list-inline-item">
-                                <i class="fab fa-github"></i>
+                                <i class="fab fa-java"></i>
                             </li>
                             <li class="list-inline-item">
                                 <i class="fab fa-android"></i>
@@ -124,10 +127,16 @@
                                 <img class="stackLogo fab" src="img\azure.png" style="margin-bottom: 20px;">
                             </li>
                             <li class="list-inline-item">
+                                <img class="stackLogo fab" src="img\rails.png" style="margin-bottom: 20px;">
+                            </li>
+                            <li class="list-inline-item">
                                 <i class="fab fa-swift"></i>
                             </li>
                             <li class="list-inline-item">
-                                <i class="fab fa-java"></i>
+                                <i class="fab fa-github"></i>
+                            </li>
+                            <li class="list-inline-item">
+                                <i class="fab fa-git"></i>
                             </li>
                         </ul>
                     </div>
@@ -137,16 +146,44 @@
         <section class="content-section bg-beautytruthGreen" id="beautytruth">
             <div class="container text-center beautytruthCon" style="margin-top: 20px;">
                 <div class="row">
-                    <div class="mx-auto my-auto col-lg-5 col-md-9 col-sm-10">
-                        <img class="img-fluid d-block mb-2 mx-auto beautylogo" src="img\beautytruth.png" style="margin-bottom: 0;">
+                    <div class="mx-auto my-auto col-md-9 col-sm-10 col-lg-5">
+                        <div class="row">
+                            <div class="mx-auto my-auto col-lg-1 col-sm-1 col-2 col-md-2">
+                                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                            </div>
+                            <div class="mx-auto col-xl-7 col-8">
+                                <!-- Slideshow container -->
+                                <div class="slideshow-container">
+                                    <!-- Full-width images with number and caption text -->
+                                    <div class="mySlides fade">
+                                        <img class="img-fluid d-block mx-auto mr-auto ml-auto" src="img/ScannerView.png" style="width:100%">
+                                    </div>
+                                    <div class="mySlides fade">
+                                        <img class="img-fluid d-block mx-auto mr-auto ml-auto" src="img/ingredientsOpen.png" style="width:100%">
+                                    </div>
+                                    <div class="mySlides fade">
+                                        <img src="img/ingredientsClosed.png" style="width:100%">
+                                    </div>
+                                    <!-- Next and previous buttons -->
+                                </div>
+                                <br>
+                                <!-- The dots/circles -->
+                            </div>
+                            <div class="mx-auto my-auto col-lg-1 col-sm-1 col-md-2 col-2">
+                                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                            </div>
+                        </div>
+                        <!-- Next and previous buttons -->
                     </div>
-                    <div class="mx-auto col-lg-6 btCol col-md-9 col-sm-10">
+                    <div class="mx-auto my-auto btCol col-md-9 col-sm-10 col-lg-5">
+                        <img class="img-fluid d-block mx-auto beautylogo mr-auto ml-auto " src="img\beautytruth.png" style="margin-bottom: 0;">
                         <h3 class="light" style="margin-bottom: 50px; text-align: left;">Quickly know if a product is vegan, cruelty- free or sustainable. All from your smartphone.</h3>
                         <p class="light" style="text-align: left;">Since July 2020, I've been developing BeautyTruth natively for IOS and Android with an aim to let consumers know quickly which vegan and cruelty-free societies have certified a scanned product. </p>
                         <p class="light" style="text-align: left;">I've designed an intricate system using AWS, Azure and external APIs to connect my app to over 34 million products. This system will correctly deal with new and phased out products while increasing the speed of frequent product scans over time.</p>
                         <p class="light" style="text-align: left;">I've partnered with PETA to have exclusive use of their API. I'm also in discussion with other societies to negotiate access to their certified products and brands to help streamline development.</p>
                         <a class="btn btn-light btn-xl js-scroll-trigger btButton" href="https://www.beautytruth.uk">Visit website</a>
-                        <a class="btn btn-light btn-xl js-scroll-trigger btButton" href="https://www.beautytruth.uk">AWS architecture</a>
+                        <a class="btn btn-light btn-xl js-scroll-trigger btButton" href="https://am3pap001files.storage.live.com/y4mUMefa7cQbyKyVGZFERfGfbZDZL5zf0HVmoQfaiNnhT6ZCvkBswXfgi6Jkf4x5fPTuOlgJGGQkPqLFf1DkcC8DgLAGhMD0Dxhm4qNYk9VxrJfvE7iKYUvAxG2rLS0whw7CXrgHePFWgUeJ-JIUF0eK3-7DCzgF7rDgzTEdL8UQPzwtLRuVU2gtsZx1i4tKaXq?width=1143&height=1642&cropmode=none">Cloud architecture</a>
+                        <a class="btn btn-light btn-xl js-scroll-trigger btButton" href="https://am3pap001files.storage.live.com/y4mGppCaPa4QgQ2mmvaiFH84g9WU39SaKHWpPWMpzOS7qn1hE-QrZwHoPXR61AOq3vgHYIr5VhnwNkrbYlGC3Nf9B37TPrkLIfawv4GZdqlhegZFq7m8r9T2jmpf8OVvCt5gbwcjpJLHnD_xNMacM-V9s_4f7ZkEtAdrwYREV4vGpzBL9dS3cxU3c-j3I6ty_-f?width=1502&height=2291&cropmode=none">Flow diagram</a>
                     </div>
                 </div>
             </div>
@@ -159,7 +196,7 @@
                     </div>
                     <div class="mx-auto col-lg-6 col-md-9 col-sm-10">
                         <img class="img-fluid d-block mb-2 mx-auto beautylogo" src="img\bepandalight.png" style="margin-top: -10px;">
-                        <h3 style="margin-bottom: 30px; margin-top: 50px;">Recyclable, reuseable, sustainable products<br></h3>
+                        <h3 style="margin-bottom: 30px; margin-top: 50px;">Recyclable, reusable, sustainable products<br></h3>
                         <p class="lead mb-5">I founded BePanda to help combat the waste caused by single-use products.&nbsp;</p>
                         <p class="lead mb-5" style="margin-top: -20px;">Partnered with PlasticOceans UK to help stop plastic reaching the ocean.</p>
                         <a class="btn btn-dark btn-xl js-scroll-trigger" href="https://bepanda.co.uk/">Visit website</a>
@@ -174,6 +211,22 @@
         <!-- Callout -->
         <!-- Portfolio -->
         <!-- Call to Action -->
+        <section class="content-section bg-primary text-white bg-totalSolarBlue" id="totalSolar">
+            <div class="container text-center beautytruthCon" style="margin-top: 20px;">
+                <div class="row">
+                    <div class="mx-auto my-auto col-lg-5 col-md-9 col-sm-10">
+                        <img class="img-fluid d-block mb-2 mx-auto beautylogo" src="img\totalSolar.png" style="margin-bottom: 0;">
+                    </div>
+                    <div class="mx-auto col-lg-6 btCol col-md-9 col-sm-10">
+                        <h3 class="light" style="margin-bottom: 50px; text-align: left;">Configure, design or discover your ideal solar system and get connected to an installer.</h3>
+                        <p class="light" style="text-align: left;">An online web application with an aim to increase consumer confidence in solar.</p>
+                        <p class="light" style="text-align: left;">Using Google's API for Project Sunroof as well as AWS. TotalSolar will create an accurate summery of the performance and cost of a solar system or create one that's ideal for the consumer.</p>
+                        <p class="light" style="text-align: left;">Linking consumers with installers and removing as much friction in the process. Users will be able to compare between installers and get a breakdown of the solar system to be installed.</p>
+                        <h5 class="light mt-5" style="text-align: left;">Currently in development</h5>
+                    </div>
+                </div>
+            </div>
+        </section>
         <section class="content-section bg-primary text-white contact" id="contact">
             <div class="container text-center">
                 <a class="btn btn-light btn-xl js-scroll-trigger" href="mailto:toby.johnson@beautytruth.uk">Get in touch</a>
@@ -201,5 +254,29 @@
         <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
         <!-- Custom scripts for this template -->
         <script src="js/stylish-portfolio.min.js"></script>
+        <script> var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  slides[slideIndex-1].style.display = "block";
+}  </script>
     </body>
 </html>
